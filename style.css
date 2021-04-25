@@ -1,12 +1,17 @@
 #gameArea {
-    height: 600px;
-    width: 800px;
     border: 4px greenyellow solid;
     position: relative;
-    left: 17.5vw;
+    left: 20vw; 
 }
 
 body {
     height: 100vh;
     background: linear-gradient(90deg, rgba(121,9,18,1) 0%, rgba(0,212,255,1) 100%);
+    overflow: hidden; /* Will hide scrollbars */
+}
+
+h1 {
+    color: green;
+    background-color: indigo;
+    text-align: center;
 }
