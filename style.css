@@ -1,3 +1,5 @@
-h1 {
-    background-color: aquamarine;
+#gameArea {
+    height: 600px;
+    width: 800px;
+    border: 1px solid blue;
 }
